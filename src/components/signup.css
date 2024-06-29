@@ -1,0 +1,55 @@
+.main{
+    display: block;
+  justify-content: center;
+  align-items: center;
+  
+    width:30vw;
+    
+  
+    
+    box-shadow: 0px 0px 30px 8px rgba(227,227,227,0.75);
+    border-radius: 1rem;
+    padding: 1rem;
+    
+}
+
+  .inside-main{
+    margin:1rem 0rem;
+    
+  }
+
+  
+ 
+  .inside-main{
+    border:0px;
+
+    padding: 0rem 0rem;
+    margin-top: 0rem;
+   
+    border-radius: 0;
+    
+  }
+  
+ 
+  
+  
+  .inside-main input::placeholder{
+  color:rgba(0,0,0,0.5);
+  }
+  
+ 
+ .inside-main input:focus{
+    opacity: 1;
+ transition: all 0.3s;
+ }
+ .inside-main input{
+ border-width: 2px;
+border-style: solid;
+ }
+ body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
